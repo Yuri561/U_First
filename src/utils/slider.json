@@ -1,0 +1,92 @@
+[
+  {
+    "name": "HVAC Services",
+    "price": "80.00",
+    "detail": "Installation of air conditioning units\nRepair and maintenance of air conditioning systems\nInstallation of heating systems (e.g., furnaces, boilers)\nRepair and maintenance of heating systems\nHVAC system inspection and tune-up\nDuctwork cleaning and repair\nThermostat installation and calibration",
+    "image": "./maintenance.jpg"
+  },
+  {
+    "name": "Plumbing Services",
+    "price": "65.00",
+    "detail": "Leak detection and repair\nDrain cleaning and unclogging\nFixture installation (e.g., faucets, sinks, toilets)\nPipe repair and replacement\nWater heater installation and repair\nPlumbing system inspection and maintenance",
+    "image": "./plumbing.jpg"
+  },
+  {
+    "name": "Electrical Services",
+    "price": "100.00",
+    "detail": "Electrical wiring installation and repair\nLighting installation (e.g., ceiling fans, recessed lighting)\nOutlet and switch installation\nCircuit breaker panel upgrade and repair\nElectrical troubleshooting and diagnostics\nSurge protection installation",
+    "image": "./electrical.jpg"
+  },
+  {
+    "name": "Painting Services",
+    "price": "65.00",
+    "detail": "Interior and exterior painting\nWall preparation and priming\nTrim painting and finishing\nCabinet painting and refinishing\nDeck and fence painting\nPressure washing",
+    "image": "./painting.jpg"
+  },
+  {
+    "name": "Handyman Services",
+    "price": "80.00",
+    "detail": "General repairs and maintenance\nFurniture assembly\nFixture installation\nDrywall repair and installation\nDoor and window repair\nFlooring installation and repair",
+    "image": "./handymanservices.png"
+  },
+  {
+    "name": "Renovation Services",
+    "price": "75.00",
+    "detail": "Kitchen renovation\nBathroom renovation\nBasement finishing\nHome remodeling\nRoom additions\nCustom cabinetry",
+    "image": "./renovations.jpg"
+  },
+  {
+    "name": "Cleaning Services",
+    "price": "75.00",
+    "detail": "Regular cleaning services\nDeep cleaning services\nMove-in/move-out cleaning\nPost-construction cleaning\nSpecial event cleaning\nVacation rental cleaning",
+    "image": "./cleaning.jpg"
+  },
+  {
+    "name": "Smart Home Services",
+    "price": "75.00",
+    "detail": "Installation of smart thermostats\nInstallation of smart lighting systems\nIntegration of smart home devices\nTroubleshooting and maintenance of smart home systems",
+    "image": "./smart.jpg"
+  },
+  {
+    "name": "Energy Efficiency Services",
+    "price": "75.00",
+    "detail": "Energy audits and assessments\nInsulation installation and upgrade\nWeatherization services\nSolar panel installation\nHome energy management systems",
+    "image": "./energy.jpg"
+  },
+  {
+    "name": "Landscaping Services",
+    "price": "75.00",
+    "detail": "Lawn maintenance and care\nGarden design and installation\nTree and shrub pruning\nHardscaping and paving\nIrrigation system installation and repair\nSeasonal cleanup",
+    "image": "landscaping.jpg"
+  },
+  {
+    "name": "Emergency Services",
+    "price": "75.00",
+    "detail": "24/7 emergency repair services for HVAC, plumbing, and electrical systems\nWater damage restoration\nEmergency board-up services (e.g., broken windows)",
+    "image": "./24hr.jpg"
+  },
+  {
+    "name": "Carpentry Services",
+    "price": "75.00",
+    "detail": "Custom carpentry projects\nTrim and molding installation\nCabinet installation and repair\nDeck construction and repair\nFurniture repair and restoration\nWoodworking and custom builds",
+    "image": "Carpentry.jpg"
+  },
+  {
+    "name": "Window and Door Services",
+    "price": "85.00",
+    "detail": "Installation of windows and doors\nReplacement of windows and doors\nRepair of windows and doors\nWeatherstripping and caulking\nWindow and door trim installation",
+    "image": "window.jpg"
+  },
+  {
+    "name": "Roofing Services",
+    "price": "90.00",
+    "detail": "Roof repair and maintenance\nRoof replacement\nRoof inspection\nGutter repair and installation\nSkylight installation and repair\nAttic ventilation installation",
+    "image": "./roofing.jpg"
+  },
+  {
+    "name": "Flooring Services",
+    "price": "70.00",
+    "detail": "Hardwood flooring installation and refinishing\nLaminate flooring installation\nTile flooring installation\nCarpet installation\nVinyl flooring installation\nFlooring repair and restoration",
+    "image": "./flooring.jpg"
+  }
+]

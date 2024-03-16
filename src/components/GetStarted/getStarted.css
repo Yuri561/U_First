@@ -1,0 +1,25 @@
+
+
+.inner-container{
+    gap: 1.5rem;
+    background-image: url('getStarted.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    text-align: center;
+
+}
+
+.inner-container .primaryText{
+    color: white;
+    font-weight: 700;
+}
+
+.inner-container .button{
+    background: #5a73d7;
+    border: 2px solid #fff;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}

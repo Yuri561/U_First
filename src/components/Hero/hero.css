@@ -1,0 +1,185 @@
+.hero-wrapper{
+    color: #fff;
+    position: relative;
+    padding-bottom: 2rem;
+    z-index: 1;
+    
+}
+
+.hero-container {
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 6rem;
+    
+}
+/* left side styles */
+
+.hero-left{
+    gap: 3rem;
+}
+
+
+.hero-title{
+    position: relative; 
+    z-index: 1;  
+}
+
+.hero-title h1{
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 4rem;
+
+}
+
+.orange-circle{
+    height: 4rem;
+    width: 4rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position: absolute; 
+    right: 30%;
+    top: -30%;
+    z-index: -1;
+}
+
+.search-bar{
+    background-color: #fff;
+    border-radius: 5px;
+    border: 3px solid rgba(255, 150, 12, 0.979);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+}
+
+.search-bar input{
+    border: none;
+    outline: none;
+    flex: 1;
+    
+}
+
+.stats{
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+.stat>:nth-child(1){
+    font-size: 2rem;
+}
+
+.plus{
+    color: rgb(21, 128, 0);
+}
+
+.stat>:nth-child(1)>:last-child{
+    
+    color: orangered;
+    
+}
+
+
+
+/* right side styles*/
+
+
+.image-container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 50% 20% / 10% 40%;
+    border: 8px solid rgba(255, 150, 12, 0.979);
+}
+
+.image-container>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 640px){
+    .hero-container{
+        margin-top: 2rem;
+    }
+/*  */
+    .hero-title h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .search-bar{
+        gap: 1rem;
+        
+    }
+    .stats{
+        gap: 1.5rem;
+        justify-content: center;
+    }
+    /* Now to make our image smaller on mobile */
+    .image-container{ 
+        width: 15rem;
+        height: 20rem;
+    }
+    .hero-right{
+        width: 100%;
+    }
+
+    .stats>:nth-child(1){
+        font-size: 1.5rem;
+    }
+
+    .stats>:nth-child(2){
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .hero-title h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+
+    .search-bar input{
+        flex: 1;
+        width: 30vw !important;
+    }
+    
+    .stats{
+        gap: 0.5rem;
+        justify-content: center;
+    }
+    /* Now to make our image smaller on mobile */
+    .image-container{ 
+        width: 15rem;
+        height: 20rem;
+    }
+
+    .hero-right{
+        width: 100%;
+    }
+
+    .stats>:nth-child(1){
+        font-size: 1.5rem;
+    }
+
+    .stats>:nth-child(2){
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 815px) {
+    .search-bar input {
+      width: calc(80vw); /* 80% of viewport width */
+    }
+}
+@media (max-width: 767px) {
+
+  .hero-title h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  /* Additional styles for other elements at this breakpoint... */
+}

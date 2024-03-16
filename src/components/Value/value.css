@@ -1,0 +1,177 @@
+.v-container .image-container{
+    border: 8px solid rgb(232 232 232 / 93%);
+
+}
+
+.v-container >div{
+    flex: 1;
+
+}
+
+.v-container{ 
+    gap:  10rem;
+}
+
+.v-right{
+    gap: 0.5rem;
+    
+}
+
+.v-right .accordion{
+    border: none;
+}
+.accordion{
+    margin-top: 2rem;
+    border: none;
+}
+
+
+.accordion-item{
+    border: 0.8px solid rgba(128,128,128,0.2);
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+
+.heading{
+    padding: 5px;
+}
+.accordion-item.expended{
+    box-shadow: var(--shadow) !important;
+    border-radius: 6px !important;
+}
+
+.accordionButton{
+    background: white;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.btn-test{
+    justify-content: space-between !important;
+}
+
+.icon{
+    padding: 10px;
+    background: #eeeeff;
+    border-radius: 5px;
+    gap: 1rem;
+    
+    
+}
+
+.accordionButton:hover{
+    background: #f4f4f4;
+}
+
+.icon svg{
+    fill: var(--blue);
+    gap: 1rem;
+    transition: all 0.3s ease;
+    
+}
+
+.accordionButton .primaryText{
+    font-size: 1rem;
+    
+}
+
+@media screen and (max-width: 1024){
+    .v-container{
+        flex-direction: column;
+    }
+
+}
+
+@media  (max-width: 768px){
+    .accordionButton .primaryText{
+        font-size: 0.7rem;
+    }
+    .accordionButton .secondaryText{
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (max-width: 640px){
+    .hero-container{
+        margin-top: 2rem;
+    }
+/*  */
+    .hero-title h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .search-bar{
+        gap: 1rem;
+        
+    }
+    .stats{
+        gap: 1.5rem;
+        justify-content: center;
+    }
+    /* Now to make our image smaller on mobile */
+    .image-container{ 
+        width: 15rem;
+        height: 20rem;
+    }
+    .hero-right{
+        width: 100%;
+    }
+
+    .stats>:nth-child(1){
+        font-size: 1.5rem;
+    }
+
+    .stats>:nth-child(2){
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .hero-title h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .accordion{
+        margin-top: 1rem;
+        align-items: center;
+    }
+
+
+    .search-bar input{
+        flex: 1;
+        width: 30vw !important;
+    }
+    
+    .stats{
+        gap: 0.5rem;
+        justify-content: center;
+    }
+    /* Now to make our image smaller on mobile */
+    .image-container{ 
+        width: 15rem;
+        height: 20rem;
+    }
+
+    .hero-right{
+        
+        width: 100%;
+    }
+
+    .stats>:nth-child(1){
+        font-size: 1.5rem;
+    }
+
+    .stats>:nth-child(2){
+        font-size: 1.8rem;
+    }
+}
+
